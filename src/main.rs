@@ -1,4 +1,4 @@
-mod model;
+mod dataset;
 
 fn main() {
     println!("Hello, world!");

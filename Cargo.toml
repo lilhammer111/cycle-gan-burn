@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+burn = { version = "0.13.2", features = ["dataset", "vision"] }
+serde = { version = "1.0.203", features = ["derive"] }
+openssl-sys = { version = "0.9.102", features = ["vendored"] }
+zip = "2.1.3"
